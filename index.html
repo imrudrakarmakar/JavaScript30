@@ -1,14 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div>
-        <a href="./01 - drumkit/index.html"><span>Day 1</span></a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript30</title>
+
+    <!-- bootstrap  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+    
+    <style>
+        body {
+          background: url(https://images.unsplash.com/photo-1584968153986-3f5fe523b044?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80);
+          object-fit: fill;
+        }
+        .body-container {
+          height: 100%;
+        }
+        .top {
+            margin-bottom: 25px;
+        }
+        .title {
+          color: #ffffff;
+          text-align: center;
+          font-size: 4rem;
+          font-weight: 700;
+          margin-bottom: 25px;
+        }
+        .card {
+          margin-bottom: 25px;
+        }
+        /* img {
+          transform: scale(1.1);
+        }
+        img:hover {
+          transform: scale(1.05);
+          transition: transform 330ms ease-in-out;
+        } */
+        .bottom {
+            text-align: center;
+            color: white;
+            background-color: rgb(31, 32, 31);
+            padding: 20px;
+            position: absolute;
+            width: 100%;
+            bottom: 0px;
+        }
+        @media only screen and (max-width: 600px) {
+          .bottom {
+            position: relative;
+          }
+        }
+    </style>
+  </head>
+
+  <body>
+    <div class="body-container">
+
+        <div class="top">
+
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="https://github.com/imrudrakarmakar">GitHub</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://www.linkedin.com/in/rudrakarmakar/">LinkedIn</a>
+                      </li>
+                  </div>
+                </div>
+              </nav>
+
+        </div>
+
+
+        <div class="middle">
+
+            <div class="title">
+              30 Days of JavaScript
+            </div>
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                  <div class="card">
+                      <img
+                      src="./01 - drumkit/Screenshot.png"
+                      class="card-img-top"
+                      alt="..."
+                      />
+                      <div class="card-body">
+                      <h5 class="card-title">Day 1</h5>
+                      <p class="card-text">
+                        JavaScript Drum Kit
+                      </p>
+                      <a href="./01 - drumkit/index.html" class="btn btn-primary">Live</a>
+                      </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                  <div class="card">
+                      <img
+                      src="./02 - JSClock/Screenshot.png"
+                      class="card-img-top"
+                      alt="..."
+                      />
+                      <div class="card-body">
+                      <h5 class="card-title">Day 2</h5>
+                      <p class="card-text">
+                        CSS + JS Clock
+                      </p>
+                      <a href="./02 - JSClock/index.html" class="btn btn-primary">Live</a>
+                      </div>
+                  </div>
+                </div>
+
+                
+            </div>
+            </div>
+
+
+        </div>
+
+      <div class="bottom">
+        Made with ❤️ Rudra Karmakar
+      </div>
+
     </div>
-</body>
+  </body>
 </html>
